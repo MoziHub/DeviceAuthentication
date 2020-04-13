@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        print("TVOS")
         Camera().requestAuthentication(completion: { (result:Bool) in
 
         })
